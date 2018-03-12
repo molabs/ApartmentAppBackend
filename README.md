@@ -7,7 +7,7 @@ After creating a new record, the user receives an e-mail with a security key to 
 Dependencies
 --------------
 
-The Symfony Standard Edition is configured with the following defaults:
+In addition to the Symfony Standard Edition, the following dependencies were used:
 
   * FOS\RestBundle
 
