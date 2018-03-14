@@ -1,7 +1,7 @@
 Webservice with Symfony Standard Edition 3.3
 ========================
 
-REST Webservice to communicate with Mysql/SQLite Database to CRUD aparments in the apartment Database.
+REST Webservice to communicate with Mysql/SQLite database to CRUD aparments in the apartment Database.
 After creating a new record, the user receives an e-mail with a security key to edit and delete the record.
 
 Dependencies
@@ -27,7 +27,7 @@ Installing
   
   * **php bin/console server:run** Run the application
   
-  * Open your Browser, enter 127.0.0.1/apartments
+  * Open your browser, enter http://127.0.0.1/apartments
 
 Endpoints
 --------------
