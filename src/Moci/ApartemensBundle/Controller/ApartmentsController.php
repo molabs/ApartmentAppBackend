@@ -143,11 +143,6 @@ class ApartmentsController extends FOSRestController
         return new View("deleted successfully", Response::HTTP_OK);
     }
 
-    /**
-     * @Route("/")
-     *
-     * @param string $token token
-     */
     public function sendEmail($token){
         $getApartment = $this->getDoctrine()->getRepository("MociApartemensBundle:Apartment")->findOneBy(array('token' => $token));
         $id = $getApartment->getId();
